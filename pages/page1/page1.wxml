@@ -1,0 +1,19 @@
+<!--index.wxml-->
+
+<view class="container" style="text-align: center;">
+    <view>这是page1页面</view>
+    <view class="info">{{info}}</view>
+</view>
+<view class="btnContainer" style="padding: 0 20px;">
+    <button bindtap="publishPage1Event">publishPage1Event</button>
+    <button bindtap="goPage1">navigateToPage1</button>
+    <button bindtap="goPage2">navigateToPage2</button>
+</view>
+<view class="subscribe-container">
+    <view class="switch">
+        <view class="switch-dis">subscribe page2Event</view>
+        <view>
+            <switch bindchange="changeSubscribe" data-event="page2Event" />
+        </view>
+    </view>
+</view>

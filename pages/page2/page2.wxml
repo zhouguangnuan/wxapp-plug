@@ -1,0 +1,10 @@
+<!--index.wxml-->
+
+<view class="container" style="text-align: center;">
+    <view>这是page2页面</view>
+    <view class="info">{{info}}</view>
+</view>
+<view class="btnContainer" style="padding: 0 20px;">
+    <button bindtap="publishPage2Event">publishPage2Event</button>
+</view>
+

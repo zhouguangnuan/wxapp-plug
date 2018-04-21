@@ -1,0 +1,32 @@
+<!--index.wxml-->
+
+<view class="container" style="text-align: center;">
+    <view>这是index页面</view>
+    <view class="info">{{info}}</view>
+</view>
+
+<view class="btn-container">
+    <button bindtap="publishIndexEvent">publishIndexEvent</button>
+    <button bindtap="goPage1">navigateToPage1</button>
+</view>
+
+<view class="subscribe-container">
+    <view class="switch">
+        <view class="switch-dis">subscribe indexEvent</view>
+        <view>
+            <switch bindchange="changeSubscribe" data-event="indexEvent" />
+        </view>
+    </view>
+    <view class="switch">
+        <view class="switch-dis">subscribe page1Event</view>
+        <view>
+            <switch bindchange="changeSubscribe" data-event="page1Event" />
+        </view>
+    </view>
+    <view class="switch">
+        <view class="switch-dis">subscribe page2Event</view>
+        <view>
+            <switch bindchange="changeSubscribe" data-event="page2Event" />
+        </view>
+    </view>
+</view>

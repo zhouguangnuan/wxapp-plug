@@ -1,0 +1,13 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/page1/page1",
+        "pages/page2/page2"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "broadcast.js",
+        "navigationBarTextStyle": "black"
+    }
+}
